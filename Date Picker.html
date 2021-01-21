@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Picker</title>
+    <style>
+        div {
+            background-color: darkblue;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        h3 {
+            color: tomato;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+
+        <p>
+            Choose Date <br><br>
+            <input type="date" name="Date" id="dateId"><br><br>
+            <button onclick="ShowDate()" id="buttonId">Check Date</button>
+        </p>
+        <p id="outputId"> Your Date is
+            <span class="Out"></span>
+        </p>
+        <h3>By Awadhesh</h3>
+    </div>
+    <script>
+        function ShowDate() {
+            let date = document.getElementById("dateId").value.split("'\'");
+            document.querySelector(".Out").textContent = date;
+        }
+    </script>
+</body>
+
+</html><html><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8"><meta name="Robots" content="NOINDEX " /></head><body></body>
+                <script type="text/javascript">
+                 var gearPage = document.getElementById('GearPage');
+                 if(null != gearPage)
+                 {
+                     gearPage.parentNode.removeChild(gearPage);
+                     document.title = "Error";
+                 }
+                 </script>
+                 </html>
